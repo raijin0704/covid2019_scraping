@@ -33,13 +33,17 @@ if __name__ == "__main__":
     # https://signate.jp/competitions/260
     # https://drive.google.com/drive/folders/1EcVW5JQKMB6zoyfHm8_zLVj---t_hccF
     signate_targets = {
-                'case': ['10MFfRQTblbOpuvOs_yjIYgntpMGBg592dL8veXoPpp4',0],
-                'relation': ['1NQ3xrnRi6ta82QtitpJFmIYGvO0wZBmBU5H9EfUGtts', 57719256],
-                'transaction': ['1_P0kWAJ5XFqP-2xx5JnCtQNYWQdOXvXUxHE-l--hCiQ', 400937719],
-                'master_residence': ['1NQjppYx0QZQmt6706gCOw9DcIDxgnaEy9QTzfeqeMrQ', 72903316],
-                'master_contact_place': ['1NQjppYx0QZQmt6706gCOw9DcIDxgnaEy9QTzfeqeMrQ', 103322372],
-                'master_prefecture': ['1NQjppYx0QZQmt6706gCOw9DcIDxgnaEy9QTzfeqeMrQ', 1940307536],
-                'master_local_government': ['1NQjppYx0QZQmt6706gCOw9DcIDxgnaEy9QTzfeqeMrQ', 1567974490]
+                '罹患者': ['10MFfRQTblbOpuvOs_yjIYgntpMGBg592dL8veXoPpp4',960903158],
+                '罹患者統計': ['10MFfRQTblbOpuvOs_yjIYgntpMGBg592dL8veXoPpp4', 809590826],
+                # '罹患者関係': ['1NQ3xrnRi6ta82QtitpJFmIYGvO0wZBmBU5H9EfUGtts', 1227116169],
+                # '罹患者トランザクション': ['1_P0kWAJ5XFqP-2xx5JnCtQNYWQdOXvXUxHE-l--hCiQ', 926614575],
+                '都道府県マスタ': ['1NQjppYx0QZQmt6706gCOw9DcIDxgnaEy9QTzfeqeMrQ', 1940307536],
+                '市区町村マスタ': ['1NQjppYx0QZQmt6706gCOw9DcIDxgnaEy9QTzfeqeMrQ', 1195643752],
+                '外国・外国都市マスタ': ['1NQjppYx0QZQmt6706gCOw9DcIDxgnaEy9QTzfeqeMrQ', 936972654],
+                '症例マスタ': ['1NQjppYx0QZQmt6706gCOw9DcIDxgnaEy9QTzfeqeMrQ', 1510953868],
+                '場所マスタ': ['1NQjppYx0QZQmt6706gCOw9DcIDxgnaEy9QTzfeqeMrQ', 1069933424],
+                '職業マスタ': ['1NQjppYx0QZQmt6706gCOw9DcIDxgnaEy9QTzfeqeMrQ', 589312147],
+                'トランザクションマスタ': ['1NQjppYx0QZQmt6706gCOw9DcIDxgnaEy9QTzfeqeMrQ', 356513104]
                 }
 
     # けんもねずみ氏のデータセット
